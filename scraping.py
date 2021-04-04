@@ -102,11 +102,15 @@ def mars_facts():
 def hemisphere_images(browser):
     hemisphere_image_urls = []
 
-    images = browser.find_by_css("a.product-item img")
+    # Visit URL
+    url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
+    browser.visit(url)
+
+    images = browser.find_by_css("a.product-item h3")
 
     for i in range(len(images)):
         hemisphere = {}
-        browser.find_by_css("a.product-item img")[i].click()
+        browser.find_by_css("a.product-item h3")[i].click()
         sample = browser.find_by_text("Sample")[0]
         hemisphere["link"] = sample["href"]
         hemisphere["title"] = browser.find_by_css("h2.title").text
