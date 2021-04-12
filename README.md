@@ -16,9 +16,14 @@ This new assignment consists of three technical analyses. You will submit the fo
    ![mars2](mars2.png)
     
    Deliverable 3: Add Bootstrap 3 Components
-    
+   
+   *adding a background color
    ![1](bootstrap_color.png)
+   
+   *creating a large button
    ![2](bootstrap_button.png)
+   
+   *adding a "click below" label above the button
    ![3](bootstrap_click.png)
 
 
