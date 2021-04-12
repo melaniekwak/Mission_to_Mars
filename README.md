@@ -5,10 +5,21 @@ What You're Creating
 
 This new assignment consists of three technical analyses. You will submit the following deliverables:
 
-    Deliverable 1: Scrape Full-Resolution Mars Hemisphere Images and Titles
+   Deliverable 1: Scrape Full-Resolution Mars Hemisphere Images and Titles
     
-    ![hem](hemisphere_url.png)
+   ![hem](hemisphere_url.png)
     
     
-    Deliverable 2: Update the Web App with Mars Hemisphere Images and Titles
-    Deliverable 3: Add Bootstrap 3 Components
+   Deliverable 2: Update the Web App with Mars Hemisphere Images and Titles
+    
+   ![mars1](mars1.png)
+   ![mars2](mars2.png)
+    
+   Deliverable 3: Add Bootstrap 3 Components
+    
+   ![1](bootstrap_color.png)
+   ![2](bootstrap_button.png)
+   ![3](bootstrap_click.png)
+
+
+
